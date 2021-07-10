@@ -170,30 +170,39 @@ exe "hi! CtrlPNoEntries" "guifg=".s:aurora0 "guibg=".s:none
 " -------
 " - PHP -
 " -------
-exe "hi! phpFunction"     "guifg=".s:none  "guibg=".s:frost1
-exe "hi! phpFunctionCall" "guifg=".s:none  "guibg=".s:frost1
+exe "hi! phpFunction"     "guifg=".s:frost1 "guibg=".s:none
+exe "hi! phpFunctionCall" "guifg=".s:frost1 "guibg=".s:none
 " removes highlighting on (), {}, etc.
-exe "hi! phpParent"       "guifg=".s:none  "guibg=".s:none
+exe "hi! phpParent"       "guifg=".s:none   "guibg=".s:none
 
 " --------
 " - HTML -
 " --------
-exe "hi! htmlTag"         "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlTagName"     "guifg=".s:none  "guibg=".s:frost1
-exe "hi! htmlEndTag"      "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH1"          "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH2"          "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH3"          "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH4"          "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH5"          "guifg=".s:none  "guibg=".s:none
-exe "hi! htmlH6"          "guifg=".s:none  "guibg=".s:none
+exe "hi! htmlTag"         "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlTagName"     "guifg=".s:frost1 "guibg=".s:none
+exe "hi! htmlEndTag"      "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH1"          "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH2"          "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH3"          "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH4"          "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH5"          "guifg=".s:none   "guibg=".s:none
+exe "hi! htmlH6"          "guifg=".s:none   "guibg=".s:none
+
+" --------------------
+" - LSP/Autocomplete -
+" --------------------
+exe "hi! NormalFloat" "guifg=".s:snow0 "guibg=".s:polar1
+exe "hi! Pmenu"       "guifg=".s:snow0 "guibg=".s:polar1
+exe "hi! PmenuSel"    "guifg=".s:none  "guibg=".s:polar2
+exe "hi! PmenuSbar"   "guifg=".s:none  "guibg=".s:polar2
+exe "hi! PmenuThumb"  "guifg=".s:none  "guibg=".s:polar2
 
 " ------------------
 " - JavaScript/JSX -
 " ------------------
-exe "hi! javaScriptBraces" "guifg=".s:none "guibg=".s:none
-exe "hi! jsVariableDef"  "guifg=".s:none "guibg=".s:frost1
-exe "hi! jsxTag"         "guifg=".s:none "guibg=".s:none
-exe "hi! jsxCloseString" "guifg=".s:none "guibg=".s:none
-exe "hi! jsxOpenPunct"   "guifg=".s:none "guibg=".s:none
-exe "hi! jsxClosePunct"  "guifg=".s:none "guibg=".s:none
+exe "hi! javaScriptBraces" "guifg=".s:none   "guibg=".s:none
+exe "hi! jsVariableDef"    "guifg=".s:frost1 "guibg=".s:none
+exe "hi! jsxTag"           "guifg=".s:none   "guibg=".s:none
+exe "hi! jsxCloseString"   "guifg=".s:none   "guibg=".s:none
+exe "hi! jsxOpenPunct"     "guifg=".s:none   "guibg=".s:none
+exe "hi! jsxClosePunct"    "guifg=".s:none   "guibg=".s:none
