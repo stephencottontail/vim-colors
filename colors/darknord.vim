@@ -196,6 +196,15 @@ exe "hi! Pmenu"       "guifg=".s:snow0 "guibg=".s:polar1
 exe "hi! PmenuSel"    "guifg=".s:none  "guibg=".s:polar2
 exe "hi! PmenuSbar"   "guifg=".s:none  "guibg=".s:polar2
 exe "hi! PmenuThumb"  "guifg=".s:none  "guibg=".s:polar2
+exe "hi! LspDiagnosticsFloatingError"       "guifg=".s:aurora0 "guibg=".s:polar1
+exe "hi! LspDiagnosticsFloatingWarning"     "guifg=".s:aurora2 "guibg=".s:polar1
+exe "hi! LspDiagnosticsFloatingInformation" "guifg=".s:aurora3 "guibg=".s:polar1
+exe "hi! LspDiagnosticsFloatingHint"        "guifg=".s:aurora3 "guibg=".s:polar1
+exe "hi! LspDiagnosticsDefaultError"        "guifg=".s:aurora0 "guibg=".s:polar0
+exe "hi! LspDiagnosticsDefaultWarning"      "guifg=".s:aurora2 "guibg=".s:polar0
+exe "hi! LspDiagnosticsDefaultInformation"  "guifg=".s:aurora3 "guibg=".s:polar0
+exe "hi! LspDiagnosticsDefaultHint"         "guifg=".s:aurora3 "guibg=".s:polar0
+exe "hi! LspDiagnosticsVirtualTextError"    "guifg=".s:aurora0 "guibg=".s:polar1
 
 " ------------------
 " - JavaScript/JSX -
@@ -206,3 +215,4 @@ exe "hi! jsxTag"           "guifg=".s:none   "guibg=".s:none
 exe "hi! jsxCloseString"   "guifg=".s:none   "guibg=".s:none
 exe "hi! jsxOpenPunct"     "guifg=".s:none   "guibg=".s:none
 exe "hi! jsxClosePunct"    "guifg=".s:none   "guibg=".s:none
+highlight link jsxPunct NONE
