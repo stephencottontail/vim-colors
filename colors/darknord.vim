@@ -64,9 +64,9 @@ exe "hi! Title"       "guifg=".s:none  "guibg=".s:polar2 "gui=".s:none
 " -------------------------------
 " - File Navigation / Searching -
 " -------------------------------
-exe "hi! Directory"   "guifg=".s:none    "guibg=".s:none "gui=".s:none
-exe "hi! Search"      "guifg=".s:aurora3 "guibg=".s:none "gui=".s:none
-exe "hi! IncSearch"   "guifg=".s:aurora3 "guibg=".s:none "gui=".s:none
+exe "hi! Directory"   "guifg=".s:none "guibg=".s:none   "gui=".s:none
+exe "hi! Search"      "guifg=".s:none "guibg=".s:polar2 "gui=".s:none
+exe "hi! IncSearch"   "guifg=".s:none "guibg=".s:polar2 "gui=".s:none
 
 " -----------------
 " - Prompt/Status -
