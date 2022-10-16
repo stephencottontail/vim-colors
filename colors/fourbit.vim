@@ -63,17 +63,18 @@ exe "hi! MoreMsg"      "ctermfg=none ctermbg=none"
 " --------------
 " - Visual aid -
 " --------------
-exe "hi! MatchParen"  "ctermfg=none ctermbg=13"
-exe "hi! Visual"      "ctermfg=7    ctermbg=0"
-exe "hi! VisualNOS"   "ctermfg=7    ctermbg=0"
-exe "hi! NonText"     "ctermfg=none ctermbg=none"
-exe "hi! Todo"        "ctermfg=none ctermbg=2"
-exe "hi! Underlined"  "ctermfg=none ctermbg=none"
-exe "hi! Error"       "ctermfg=1    ctermbg=none"
-exe "hi! ErrorMsg"    "ctermfg=1    ctermbg=none"
-exe "hi! WarningMsg"  "ctermfg=0    ctermbg=yellow"
-exe "hi! Ignore"      "ctermfg=none ctermbg=none"
-exe "hi! SpecialKey"  "ctermfg=none ctermbg=none"
+exe "hi! MatchParen"        "ctermfg=none ctermbg=13"
+exe "hi! Visual"            "ctermfg=7    ctermbg=0"
+exe "hi! VisualNOS"         "ctermfg=7    ctermbg=0"
+exe "hi! NonText"           "ctermfg=none ctermbg=none"
+exe "hi! Todo"              "ctermfg=none ctermbg=2"
+exe "hi! Underlined"        "ctermfg=none ctermbg=none"
+exe "hi! Error"             "ctermfg=1    ctermbg=none"
+exe "hi! ErrorMsg"          "ctermfg=1    ctermbg=none"
+exe "hi! NvimInternalError" "ctermfg=1    ctermbg=none"
+exe "hi! WarningMsg"        "ctermfg=1    ctermbg=none"
+exe "hi! Ignore"            "ctermfg=none ctermbg=none"
+exe "hi! SpecialKey"        "ctermfg=none ctermbg=none"
 
 
 " ------------------
@@ -100,7 +101,7 @@ exe "hi! Repeat"          "ctermfg=none ctermbg=none"
 exe "hi! Label"           "ctermfg=none ctermbg=none"
 exe "hi! Operator"        "ctermfg=none ctermbg=none"
 exe "hi! Keyword"         "ctermfg=none ctermbg=none"
-exe "hi! Exception"       "ctermfg=none ctermbg=1"
+exe "hi! Exception"       "ctermfg=1 ctermbg=none"
 exe "hi! Comment"         "ctermfg=5 ctermbg=none"
 exe "hi! Type"            "ctermfg=none ctermbg=none"
 highlight! link vimCommentTitle Comment
@@ -111,6 +112,7 @@ exe "hi! Tag"             "ctermfg=none ctermbg=none"
 exe "hi! Delimiter"       "ctermfg=none ctermbg=none"
 exe "hi! SpecialComment"  "ctermfg=none ctermbg=none"
 exe "hi! Debug"           "ctermfg=none ctermbg=none"
+exe "hi! PreProc"         "ctermfg=none ctermbg=none"
  
 
 " --------"
@@ -125,9 +127,9 @@ exe "hi! DiffText"        "ctermfg=none ctermbg=none"
 " -------------------
 " - Completion menu -
 " -------------------
-exe "hi! Pmenu"           "ctermfg=none ctermbg=6"
-exe "hi! PmenuSel"        "ctermfg=none ctermbg=7"
-exe "hi! PmenuSbar"       "ctermfg=none ctermbg=6"
+exe "hi! Pmenu"           "ctermfg=none ctermbg=15"
+exe "hi! PmenuSel"        "ctermfg=none ctermbg=none"
+exe "hi! PmenuSbar"       "ctermfg=none ctermbg=15"
 exe "hi! PmenuThumb"      "ctermfg=none ctermbg=none"
 
  
