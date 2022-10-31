@@ -102,7 +102,7 @@ exe "hi! Label"           "ctermfg=none ctermbg=none"
 exe "hi! Operator"        "ctermfg=none ctermbg=none"
 exe "hi! Keyword"         "ctermfg=none ctermbg=none"
 exe "hi! Exception"       "ctermfg=1 ctermbg=none"
-exe "hi! Comment"         "ctermfg=5 ctermbg=none"
+exe "hi! Comment"         "ctermfg=6 ctermbg=none"
 exe "hi! Type"            "ctermfg=none ctermbg=none"
 highlight! link vimCommentTitle Comment
 highlight! link vimCommentTitleLeader Comment
@@ -146,7 +146,7 @@ exe "hi! phpParent"       "ctermfg=none ctermbg=none"
 " - HTML -
 " --------
 exe "hi! htmlTag"         "ctermfg=none ctermbg=none"
-exe "hi! htmlTagName"     "ctermfg=none ctermbg=3"
+exe "hi! htmlTagName"     "ctermfg=none ctermbg=none"
 exe "hi! htmlEndTag"      "ctermfg=none ctermbg=none"
 exe "hi! htmlH1"          "ctermfg=none ctermbg=none"
 exe "hi! htmlH2"          "ctermfg=none ctermbg=none"
