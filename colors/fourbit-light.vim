@@ -4,7 +4,7 @@
 " Notes: Based on a color scheme by Alexander Gudulin, which was based on
 " the Alabaster color scheme by Nikita Prokopov (https://github.com/tonsky/sublime-scheme-alabaster/)
 
-set background=dark
+set background=light
 
 highlight clear
 if exists("syntax_on")
@@ -16,8 +16,8 @@ let g:colors_name="fourbit"
 " -------------------
 " - Editor settings -
 " -------------------
-exe "hi! Normal"          "ctermfg=7 ctermbg=0"
-exe "hi! Cursor"          "ctermfg=5 ctermbg=none"
+exe "hi! Normal"          "ctermfg=0 ctermbg=7"
+exe "hi! Cursor"          "ctermfg=2 ctermbg=2"
 exe "hi! CursorLine"      "ctermfg=none ctermbg=none"
 exe "hi! LineNr"          "ctermfg=none ctermbg=none"
 exe "hi! CursorLineNR"    "ctermfg=none ctermbg=none"
@@ -48,13 +48,11 @@ exe "hi! TabLineSel"  "ctermfg=7    ctermbg=0"
 exe "hi! Directory"   "ctermfg=none ctermbg=none"
 exe "hi! Search"      "ctermfg=7 ctermbg=0"
 exe "hi! IncSearch"   "ctermfg=7 ctermbg=0"
-
+1
 
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe "hi! StatusLine"   "ctermfg=7  ctermbg=0"
-exe "hi! StatusLineNC" "ctermfg=15 ctermbg=0"
 exe "hi! WildMenu"     "ctermfg=none ctermbg=none"
 exe "hi! Quesion"      "ctermfg=none ctermbg=none"
 exe "hi! Title"        "ctermfg=none ctermbg=none"
@@ -65,10 +63,11 @@ exe "hi! MoreMsg"      "ctermfg=none ctermbg=none"
 " --------------
 " - Visual aid -
 " --------------
-exe "hi! MatchParen"        "ctermfg=none ctermbg=4"
-exe "hi! Visual"            "ctermfg=0    ctermbg=15"
-exe "hi! VisualNOS"         "ctermfg=0    ctermbg=15"
+exe "hi! MatchParen"        "ctermfg=none ctermbg=13"
+exe "hi! Visual"            "ctermfg=7    ctermbg=0"
+exe "hi! VisualNOS"         "ctermfg=7    ctermbg=0"
 exe "hi! NonText"           "ctermfg=none ctermbg=none"
+exe "hi! Todo"              "ctermfg=none ctermbg=2"
 exe "hi! Underlined"        "ctermfg=none ctermbg=none"
 exe "hi! Error"             "ctermfg=1    ctermbg=none"
 exe "hi! ErrorMsg"          "ctermfg=1    ctermbg=none"
@@ -85,9 +84,9 @@ exe "hi! Constant"        "ctermfg=none ctermbg=none"
 exe "hi! String"          "ctermfg=2 ctermbg=none"
 exe "hi! StringDelimiter" "ctermfg=2 ctermbg=none"
 exe "hi! Character"       "ctermfg=none ctermbg=none"
-exe "hi! Number"          "ctermfg=13 ctermbg=none"
-exe "hi! Boolean"         "ctermfg=13 ctermbg=none"
-exe "hi! Float"           "ctermfg=13 ctermbg=none"
+exe "hi! Number"          "ctermfg=14 ctermbg=none"
+exe "hi! Boolean"         "ctermfg=none ctermbg=15"
+exe "hi! Float"           "ctermfg=none ctermbg=15"
 exe "hi! Identifier"      "ctermfg=4 ctermbg=none"
 exe "hi! Function"        "ctermfg=4 ctermbg=none"
 exe "hi! vimOption"       "Ctermfg=4 ctermbg=none"
@@ -102,8 +101,8 @@ exe "hi! Repeat"          "ctermfg=none ctermbg=none"
 exe "hi! Label"           "ctermfg=none ctermbg=none"
 exe "hi! Operator"        "ctermfg=none ctermbg=none"
 exe "hi! Keyword"         "ctermfg=none ctermbg=none"
-exe "hi! Exception"       "ctermfg=1    ctermbg=none"
-exe "hi! Comment"         "ctermfg=3    ctermbg=none"
+exe "hi! Exception"       "ctermfg=1 ctermbg=none"
+exe "hi! Comment"         "ctermfg=6 ctermbg=none"
 exe "hi! Type"            "ctermfg=none ctermbg=none"
 highlight! link vimCommentTitle Comment
 highlight! link vimCommentTitleLeader Comment
@@ -128,17 +127,17 @@ exe "hi! DiffText"        "ctermfg=none ctermbg=none"
 " -------------------
 " - Completion menu -
 " -------------------
-exe "hi! Pmenu"           "ctermfg=7 ctermbg=8"
+exe "hi! Pmenu"           "ctermfg=none ctermbg=15"
 exe "hi! PmenuSel"        "ctermfg=none ctermbg=none"
-exe "hi! PmenuSbar"       "ctermfg=7 ctermbg=8"
+exe "hi! PmenuSbar"       "ctermfg=none ctermbg=15"
 exe "hi! PmenuThumb"      "ctermfg=none ctermbg=none"
 
  
 " -------
 " - PHP -
 " -------
-exe "hi! phpFunction"     "ctermfg=4 ctermbg=none"
-exe "hi! phpFunctionCall" "ctermfg=4 ctermbg=none"
+exe "hi! phpFunction"     "ctermfg=none ctermbg=3"
+exe "hi! phpFunctionCall" "ctermfg=none ctermbg=3"
 " removes highlighting on (), {}, etc.
 exe "hi! phpParent"       "ctermfg=none ctermbg=none"
  
@@ -164,9 +163,3 @@ exe "hi! jsxTag"         "ctermfg=none ctermbg=none"
 exe "hi! jsxCloseString" "ctermfg=none ctermbg=none"
 exe "hi! jsxOpenPunct"   "ctermfg=none ctermbg=none"
 exe "hi! jsxClosePunct"  "ctermfg=none ctermbg=none"
-
-
-" ----------------
-" - Stupid Thing -
-" ----------------
-exec "hi! Todo"          "ctermfg=none ctermbg=none"
